@@ -1,5 +1,5 @@
 <?php 
-if('admin' != $_COOKIE["userlevelcookie"]){
+if('admin' == $_COOKIE["userlevelcookie"]){
     header("Location: intropage.php");
 }
 ?>

@@ -55,12 +55,6 @@ if($result = $conn->query($sql)){
     echo "Помилка: " . $conn->error;
 }
 $conn->close();
-if('admin' == $_COOKIE["userlevelcookie"])
-echo "<table>
-    <tr>
-        <th><a href='form_orders.php'>Додати нове замовлення</a></th>
-    </tr>
-</table>"
 ?>
 </div>
 </body>
